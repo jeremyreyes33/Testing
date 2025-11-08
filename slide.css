@@ -1,0 +1,28 @@
+.navbar {
+    font-size: 0px;
+}
+.navbar > span {
+    transition: 0.3s ease-in;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    background-color:blue;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+#slider {
+    --value:0;
+    height: 5px;
+    width: 70px;
+    background-color: mediumslateblue;
+    transition: 0.3s ease-in-out;
+    margin-left: calc(var(--value)*70px);
+}
+
+.navbar > span:hover {
+
+    background-color:mediumslateblue ;
+    cursor: pointer;
+}
